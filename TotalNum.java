@@ -20,7 +20,7 @@ public class TotalNum{
             //그다음에 숫자들을 더한다.
         }
 
-        ㅇㄹㄷㄹㅇㄹㅇ
+
         System.out.println("입력한 수의 합은 ="+sum);
         input.close();
 
