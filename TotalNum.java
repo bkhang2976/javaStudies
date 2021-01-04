@@ -23,6 +23,7 @@ public class TotalNum{
 
         System.out.println("입력한 수의 합은 ="+sum);
         input.close();
+        //입력 닫기
 
     }
 }
