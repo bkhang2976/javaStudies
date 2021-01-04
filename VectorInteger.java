@@ -5,10 +5,12 @@ public class VectorInteger{
     Scanner input = new Scanner(System.in);
     System.out.println("정수를 입력하세요 (-1)을 입력하면 종료");
     int a = input.nextInt();
+    a = 2;
 
-    while(a!=-1){
+    /*while(a!=-1){
 
-    }
+    }*/
 
+    input.close();
   }
 }
