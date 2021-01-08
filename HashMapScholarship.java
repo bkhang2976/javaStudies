@@ -29,17 +29,29 @@ class Info{
 }
 
 public class HashMapScholarship {
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         HashMap<String, Double> gpa = new HashMap<String, Double>();
-        boolean determiner = true;
+        //boolean determiner = true;
         String information="";
         for(int i=0; i<5; i++){
             System.out.println("이름과 학점>>");
             information=input.nextLine();
-
-            
+                        Info info = new Info();
+            if(a.length>1){
+                String[] a = information.split(" ");
+                double grade = Double.parseDouble(a[1]);
+                info = Info(a[0], grade);
+                gpa.put(info.getName(), info.getGrades());
+            }
         }
+
+        System.out.println("장학생 선발 학점 기준 입력");
+        double standard = input.nextDouble();
+        String [] accepted;
+        String names="";
+        System.out.println(gpa.keySet());    
 
     }
     
