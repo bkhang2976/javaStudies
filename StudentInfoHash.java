@@ -6,6 +6,7 @@ class Student{
     private String stuno="";
     private String gpa="";
 
+
     public void setName(String name){
         this.name=name;
     }
